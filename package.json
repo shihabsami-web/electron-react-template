@@ -1,8 +1,8 @@
 {
-  "name": "electron-with-react",
-  "productName": "electron-with-react",
+  "name": "electron-react-template",
+  "productName": "electron-react-template",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A template for creating an Electron application using React",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
