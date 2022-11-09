@@ -1,8 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error('Could not find root element');
+}
+const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <h1>Hello from React!</h1>
